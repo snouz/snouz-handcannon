@@ -1,0 +1,12 @@
+{
+	"name":"snouz-handcannon",
+	"author":"snouz",
+	"version":"1.0.0",
+	"title":"Handcannon",
+	"description":"A portable version of the tank cannon weapon.\nBased on Portable Tank Cannon by Kryzeth",
+	"factorio_version":"2.0",
+	"dependencies":
+	[
+		"base >= 2.0"
+	]
+}
