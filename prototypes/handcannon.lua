@@ -6,7 +6,6 @@ data:extend({
     type = "gun",
     name = "handcannon",
     icon = path .. "/graphics/icons/handcannon.png",
-    hidden = true,
     subgroup = "gun",
     order = "e[hand-cannon]",
     inventory_move_sound = item_sounds.ammo_large_inventory_move,
@@ -42,7 +41,8 @@ data:extend({
 	type = "recipe",
 	name = "handcannon",
 	enabled = false,
-	ingredients = {
+  category = "crafting-with-fluid",
+  ingredients = {
 		{type="item",name="advanced-circuit", amount=5},
 		{type="item",name="iron-gear-wheel", amount=10},
 		{type="item",name="steel-plate", amount=15},
