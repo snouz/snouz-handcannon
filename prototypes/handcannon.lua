@@ -41,7 +41,7 @@ data:extend({
 	type = "recipe",
 	name = "handcannon",
 	enabled = false,
-  category = "crafting-with-fluid",
+  categories = {"crafting-with-fluid"},
   ingredients = {
 		{type="item",name="advanced-circuit", amount=5},
 		{type="item",name="iron-gear-wheel", amount=10},
